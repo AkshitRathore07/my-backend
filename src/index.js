@@ -3,7 +3,7 @@ import express from "express"
 import { dbconnect } from "../db/database_connect.js"
 
 dotenv.config({
-    path: './.env'
+    path: './env'
 })
 dbconnect()
 // const app = express();
